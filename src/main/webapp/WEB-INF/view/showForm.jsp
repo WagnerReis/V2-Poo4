@@ -12,7 +12,7 @@
 	<h3>Form!</h3>
 
 	<br><br>
-	Hello, ${ param.pessoaName }
+	Hello, ${ param.nome }
 	
 	<br><br>
 	

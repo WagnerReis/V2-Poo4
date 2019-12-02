@@ -24,17 +24,63 @@
 		
 		Genero <br>
 		
-		Masculino <form:radiobutton path="genero" value="masculino"/>	<br>	
-		Feminino <form:radiobutton path="genero" value="feminino"/> <br>
+		Masculino
+		<div class="input-group">
+  			<div class="input-group-prepend">
+    			<div class="input-group-text">
+      				<input type="radio" aria-label="Radio button for following text input">
+   				</div>
+  			</div>
+		</div>
+		
+		Feminino
+		<div class="input-group">
+  			<div class="input-group-prepend">
+    			<div class="input-group-text">
+      				<input type="radio" aria-label="Radio button for following text input">
+   				</div>
+  			</div>
+		</div>
 		
 		<br><br>
 		
 		Serviços: <br>
 		
-		iFood <form:checkbox path="servico" value="iFood"/> <br>
-		Uber <form:checkbox path="servico" value="Uber" /> <br>
-		Spotify <form:checkbox path="servico" value="Spotify" /> <br>
-		Netflix<form:checkbox path="servico" value="Netflix" /> <br>
+		iFood
+		<div class="input-group mb-3">
+  			<div class="input-group-prepend">
+    			<div class="input-group-text">
+      				<input type="checkbox" aria-label="Checkbox for following text input">
+    			</div>
+  			</div>
+		</div>
+		
+		Uber
+		<div class="input-group mb-3">
+  			<div class="input-group-prepend">
+    			<div class="input-group-text">
+      				<input type="checkbox" aria-label="Checkbox for following text input">
+    			</div>
+  			</div>
+		</div>
+		
+		Spotify
+		<div class="input-group mb-3">
+  			<div class="input-group-prepend">
+    			<div class="input-group-text">
+      				<input type="checkbox" aria-label="Checkbox for following text input">
+    			</div>
+  			</div>
+		</div>
+		
+		Netflix
+		<div class="input-group mb-3">
+  			<div class="input-group-prepend">
+    			<div class="input-group-text">
+      				<input type="checkbox" aria-label="Checkbox for following text input">
+    			</div>
+  			</div>
+		</div>
 		
 		<input type="submit" value="Submit"/>
 		
